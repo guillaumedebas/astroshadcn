@@ -9,6 +9,7 @@ import {
 
 export function NavBar() {
   return (
+    <div className="flex justify-center p-4 bg-gray-800">
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
@@ -41,6 +42,7 @@ export function NavBar() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+    </div>
   );
 }
 
